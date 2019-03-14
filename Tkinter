@@ -1,0 +1,6 @@
+from tkinter import *
+
+w = Tk()
+label = Label(w, text = "Start Page").grid(row = 1, column = 1)
+button = Button(w, text = "Next", command = Next).grid(row = 2, column = 1)
+w.mainloop()
